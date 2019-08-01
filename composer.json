@@ -1,0 +1,23 @@
+{
+    "name": "jehu\/junit-laravel",
+    "description": "this is a laravel package by Jehu Shaw",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "肖志华",
+            "email": "xzh@gzaihuo.cn"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Jehu\\JunitLaravel\\": "src"
+        }
+    },
+    "extra": {
+        "providers": [
+            "Jehu\\JunitLaravel\\Providers\\JunitServiceProvider"
+        ]
+    }
+
+}
